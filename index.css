@@ -12,7 +12,7 @@
     width: 80px;
     height: 80px;
     margin-top: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 #landing h1 {
     padding: 30px;
@@ -36,11 +36,20 @@
     text-align: center;
     padding-top: 7%;
     padding-bottom: 6%;
-    font-size: 20px;
+    font-size: 17px;
 }
 #what-we-do {
     text-align: center;
     padding-top: 20px;
+}
+.action {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+}
+#head2 {
+    text-align: center;
+    padding-top: 10px;
 }
 .head1 {
     text-align: center;
@@ -55,23 +64,22 @@
     display: flex;
     flex-wrap: wrap;
 }
-#portfolio h2 {
-    text-align: center;
-}
 
 .cover1, .cover2, .cover3, .cover4, .cover5, .cover6, .cover7, .cover8 {
     display: none;
+    left:30px;
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 66%;
+    width: 80%;
     color: white;
     background-color: rgba(0, 0, 0, 0.57);
     top: 10px;
     cursor: pointer;
-    margin: 20% 5%;
+    margin: 10% 5%;
     line-height: 100%;
     border: 4px solid whitesmoke;
     padding-top: 30px;
+    font-size: 20px;
 }
 #work1, #work2, #work3 ,#work4, #work5, #work6, #work7, #work8 {
     position: relative;
@@ -88,6 +96,8 @@
     background-position: center center;
     background-size: cover;
     color: whitesmoke;
+    border: white;
+    border-color: white;
 }
 .head3 {
     text-align: center;
@@ -98,8 +108,10 @@
     background: transparent;
     color: white;
     padding: 5px;
+
 }
 #contact textarea {
+    
     background: transparent;
 }
 #Name {
