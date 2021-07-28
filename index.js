@@ -89,7 +89,7 @@ $(document).ready(function(){
       var name = $("#name").val();
       var email = $("#email").val();
       var message = $("#comment").val();
-      if (name && email){
+      if (name && email && comment){
         alert (name + ", we have received your message. We will get back to you as soon as possible.Thank you for reaching out to Delani Studio.");
       }
       else {
